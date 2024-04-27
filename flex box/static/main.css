@@ -1,0 +1,73 @@
+/* CSS */
+@import url("./media.css");
+
+header {
+
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-evenly;
+    color:black;
+    font-size: xx-large;
+    background-color: black;
+    padding: 5px 5px;
+    margin: 10px
+}
+
+main{
+
+    display:flex;
+    flex-direction: column;
+
+}
+.products {
+
+    border: solid;
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.extras{
+    border: solid;
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.reviews{
+
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    margin: 10px;
+}
+
+.good-review {
+    margin: 30px;
+    border: solid;
+    padding: 5px;
+}
+
+footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
